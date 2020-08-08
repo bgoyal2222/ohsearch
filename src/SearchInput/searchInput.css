@@ -1,0 +1,50 @@
+.searchInput {
+
+}
+.itemparent {
+    display: flex;
+    padding: 5px;
+    max-width: 500px;
+}
+.itemparent a {
+    color: gray;
+    text-align: left;
+    font-size: 13px;
+}
+.itemimg {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+.itemright {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.itemleft {
+    padding: 5px;
+}
+.titleText {
+    text-transform: capitalize;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.descText {
+    margin-top: 5px;
+    text-align: left;
+    font-size: 13px;
+}
+.pageparent {
+    display: flex;
+}
+.pageitem {
+    padding: 5px;
+}
+.pageitem:hover {
+    cursor: pointer;
+    color: white;
+    background-color: orangered;
+    
+}
